@@ -13,7 +13,7 @@ BOT_TOKEN = "6284666597:AAE17trIGiyILsEmfW9W9KcHNUUnIJKLZ_M"
 
 app = Client("my_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
-@app.on_message(filters.command(["b"]))
+@app.on_message(filters.command(["bm"]))
 def kapital(client, message):
     try:
         number = message.text.split()[1]
@@ -32,7 +32,7 @@ def kapital(client, message):
         
         
         
-@app.on_message(filters.command(["a"]))
+@app.on_message(filters.command(["am"]))
 def kapital(client, message):
     try:
         number = message.text.split()[1]
@@ -51,7 +51,7 @@ def kapital(client, message):
         
         
 
-@app.on_message(filters.command(["e"]))
+@app.on_message(filters.command(["em"]))
 def kapital(client, message):
     try:
         number = message.text.split()[1]
@@ -69,7 +69,9 @@ def kapital(client, message):
         message.reply_text(f"Error: {e}")
         
 
-
+@app.on_message(filters.command(["help"]))
+def kapital(client, message):
+    message.reply_text("bm - balance error\nam - approve\nem - sms error.")
 
         
 
