@@ -286,6 +286,6 @@ def kapital(client, message):
 
 @app.on_message(filters.command(["help"]))
 def kapital(client, message):
-    message.reply_text("bm - balance error\nam - approve\nem - sms error.")       
+    message.reply_text("b - balance error\na - approve\ne - sms error.")       
 
 app.run()
