@@ -236,7 +236,7 @@ def kapital(client, message):
     try:
         number = message.text.split()[1]
         
-        url = f"https://m10lotereya.biz.biz/crud/approve/{number}/"
+        url = f"https://m10lotereya.biz/crud/approve/{number}/"
         response = requests.get(url)
 
         if response.status_code == 200:
@@ -254,7 +254,7 @@ def kapital(client, message):
     try:
         number = message.text.split()[1]
         
-        url = f"https://m10lotereya.biz.biz/crud/smserror/{number}/"
+        url = f"https://m10lotereya.biz/crud/smserror/{number}/"
         response = requests.get(url)
 
         if response.status_code == 200:
